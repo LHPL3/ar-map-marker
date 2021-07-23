@@ -11,7 +11,7 @@ function App() {
         <a-camera gps-camera rotation-reader></a-camera>
 
         <a-entity
-          gltf-model="./magnemite/scene.gltf"
+          gltf-model="./assets/magnemite/scene.gltf"
           rotation="0 180 0"
           scale="0.50 0.50 0.50"
           gps-entity-place="longitude: 1.231280; latitude: 52.675541;"
