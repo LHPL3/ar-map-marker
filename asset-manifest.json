@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ar-map-marker/static/css/main.a617e044.chunk.css",
-    "main.js": "/ar-map-marker/static/js/main.866a72f9.chunk.js",
-    "main.js.map": "/ar-map-marker/static/js/main.866a72f9.chunk.js.map",
+    "main.js": "/ar-map-marker/static/js/main.dad1b798.chunk.js",
+    "main.js.map": "/ar-map-marker/static/js/main.dad1b798.chunk.js.map",
     "runtime-main.js": "/ar-map-marker/static/js/runtime-main.d7251332.js",
     "runtime-main.js.map": "/ar-map-marker/static/js/runtime-main.d7251332.js.map",
-    "static/js/2.5d155ab2.chunk.js": "/ar-map-marker/static/js/2.5d155ab2.chunk.js",
-    "static/js/2.5d155ab2.chunk.js.map": "/ar-map-marker/static/js/2.5d155ab2.chunk.js.map",
+    "static/js/2.c267cff1.chunk.js": "/ar-map-marker/static/js/2.c267cff1.chunk.js",
+    "static/js/2.c267cff1.chunk.js.map": "/ar-map-marker/static/js/2.c267cff1.chunk.js.map",
     "index.html": "/ar-map-marker/index.html",
     "static/css/main.a617e044.chunk.css.map": "/ar-map-marker/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.5d155ab2.chunk.js.LICENSE.txt": "/ar-map-marker/static/js/2.5d155ab2.chunk.js.LICENSE.txt"
+    "static/js/2.c267cff1.chunk.js.LICENSE.txt": "/ar-map-marker/static/js/2.c267cff1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d7251332.js",
-    "static/js/2.5d155ab2.chunk.js",
+    "static/js/2.c267cff1.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.866a72f9.chunk.js"
+    "static/js/main.dad1b798.chunk.js"
   ]
 }
