@@ -19,6 +19,14 @@ const Marker = () => {
         rotation="0 180 0"
         scale="0.15 0.15 0.15"
       ></a-box>
+      <a-nft
+        type="nft"
+        url="localhost:3000/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
+        smooth="true"
+        smoothCount="10"
+        smoothTolerance=".01"
+        smoothThreshold="5"
+      ></a-nft>
     </a-scene>
   );
 };
