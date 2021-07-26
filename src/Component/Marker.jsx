@@ -1,32 +1,27 @@
 import React from 'react';
 
 const Marker = () => {
+  const success = (position) => {
+    console.log(position);
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+  };
+
+  navigator.geolocation.getCurrentPosition(success);
+
   return (
     <a-scene
       vr-mode-ui="enabled: false"
       embedded
-      arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;"
+      arjs="sourceType: webcam; debugUIEnabled: false;"
     >
-      <a-camera
-        gps-camera
-        rotation-reader
-        simulateLatitude="latitude: 52"
-        simulateLongitude="longitude: 1.2"
-      ></a-camera>
-      <a-box
-        material="color: yellow"
-        gps-entity-place="latitude: 52; longitude: 1.2"
-        rotation="0 180 0"
-        scale="0.15 0.15 0.15"
-      ></a-box>
-      <a-nft
-        type="nft"
-        url="localhost:3000/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
-        smooth="true"
-        smoothCount="10"
-        smoothTolerance=".01"
-        smoothThreshold="5"
-      ></a-nft>
+      <a-text
+        value="This content will always face you."
+        look-at="[gps-camera]"
+        scale="50 50 50"
+        gps-entity-place="latitude: 52.675541; longitude: 1.231280;"
+      ></a-text>
+      <a-camera gps-camera rotation-reader></a-camera>
     </a-scene>
   );
 };
